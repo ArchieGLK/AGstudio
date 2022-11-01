@@ -6,7 +6,7 @@ body{
 }
 
 html{
-	scroll-behavior: smoot;
+	scroll-behavior: smooth;
 }
 .navbar{
 	display: flex;
@@ -14,19 +14,19 @@ html{
 	align-items: center;
 	background-color: #612B2C;
 	color: #fff;
-	box-shadow: 10px 10px 20px 10px black;
-	max-height: 80px;
-	text-shadow: 0px 0px 4px white;
+	box-shadow: 0.625rem 0.625rem 1.25rem 1.25rem black;
+	max-height: 5rem;
+	text-shadow: 0rem 0rem 0.25rem white;
 
 }
 .navbar img{
-	height: 110px;
+	height: 7vh;
 }
 .brand-title{
-	font-size: 20px;
- margin: 10px;
+	font-size: 1.25rem;
+ margin: 62.5%;
  font-family: 'Dela Gothic One', cursive;
- text-shadow: 0px 0px 10px white;
+ text-shadow: 0rem 0rem 0.625rem white;
  background: #555;
  display: flex;
 }
@@ -41,9 +41,9 @@ html{
 .navbar-links li a{
 	text-decoration: none;
 	font-family: 'Poiret One', cursive;
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: #fff;
-	padding: 20px;
+	padding: 125%;
 	display: block;
 	transition: 1s;
 }
@@ -60,160 +60,159 @@ html{
 	display: block;
 }
 .space-between{
- height: 200px;
+ height: 36vh;
 }
 .title{
  font-family: 'Dela Gothic One', cursive;
  color: white;
- text-shadow: 0px 0px 10px white;
- margin-left: 100px;
- font-size: 60px;
+ text-shadow: 0rem 0rem 0.625rem white;
+ margin-left: 5rem;
+ font-size: 3.75rem;
 }
 .title p{
 
- font-size: 20px;
- max-width: 250px;
+ font-size: 1.25rem;
+ max-width: 36vw;
  text-shadow: none;
  text-align: left;
  font-family: 'Poiret One', cursive;
- margin-bottom: 350px;
+ margin-bottom: 21rem;
 }
 .grey-background{
 	background-color: #333;
 	width: 100%;
-	height: 700px;
-	box-shadow: inset 0px 20px 70px ;
+	height: 129vh;
+	box-shadow: inset 0rem 1.25rem 4.375rem ;
 }
 .grid-container{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 20px;
-	max-width: 700px;
+	grid-column-gap: 1.25rem;
+	max-width: 43.75rem;
 	margin: 0 auto;
-	padding-top: 30px;
+	padding-top: 1.875rem;
 }
 .text{
-	height: 200px;
-	width: 220px;
+	height: 37vh;
+	width: 13.75rem;
 	margin: 0 auto;
 	font-family: 'Russo One', sans-serif;
 	color: white;
-	text-shadow: 0px 0px 4px white;
-	font-size: 35px;
+	text-shadow: 0rem 0rem 0.25rem white;
+	font-size: 2.188rem;
 	text-align: right;
 }
 .text p{
 	font-family: 'Poiret One', cursive;
 	text-shadow: none;
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 .photo{
-	height: 200px;
-	width: 250px;
+	height: 36.9vh;
+	width: 15.625rem;
 	margin: 0 auto;
 }
 .photo img{
-	height: 200px;
+	height: 36.9vh;
 	border-radius: 100rem;
-	box-shadow: 10px 10px 30px;
+	box-shadow: 0.625rem 0.625rem 1.875rem;
 }
 .grid-container-second{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	max-width: 700px;
+	max-width: 43.75rem;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 6.25rem;
 }
 .photo-second{
-	height: 200px;
-	width: 250px;
+	height: 36.9vh;
+	width: 15.625rem;
 	margin: 0 auto;
-	padding-left: 30px;
+	padding-left: 1.875rem;
 }
 .photo-second img{
-	height: 200px;
-	border-radius: 1000px;
-	box-shadow: 10px 10px 30px;
+	height: 36.9vh;
+	border-radius: 100rem;
+	box-shadow: 0.625rem 0.625rem 1.875rem;
 }
 .text-second{
-	height: 200px;
-	width: 220px;
+	height: 36.9vh;
+	width: 13.75rem;
 	margin: 0 auto;
 	font-family: 'Russo One', sans-serif;
 	color: white;
-	text-shadow: 0px 0px 4px white;
-	font-size: 35px;
+	text-shadow: 0rem 0rem 0.25rem white;
+	font-size: 2.188rem;
 	text-align: left;
 }
 .text-second p{
 	font-family: 'Poiret One', cursive;
 	text-shadow: none;
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 .video1{
-	height:386px;
+	height:71vh;
 	width: 100%;
 	background: linear-gradient(90deg, #111, #302640);
 
 }
 .video1 video{
-margin-top: 15px;
+margin-top: 0.938rem;
 z-index: +1;
 margin-left: 50vw;
 transform: translate(-50%);
 transition: 1s;
-box-shadow: 10px 10px 100px 30px;
-}
-.video2{
-	height:386px;
-	width: 100%;
-	background: linear-gradient(90deg, #111, #302640);
+box-shadow: 0.625rem 0.625rem 6.25rem 1.875rem;
 }
 .video1 video:hover{
-	width: 210px;
+	width: 13.125rem;
 }
-.video2 video{
-margin-top: 15px;
-z-index: +1;
-margin-left: 50vw;
-transform: translate(-50%);
-transition: 1s;
-box-shadow: 10px 10px 100px 30px;
-}
-.video2 video:hover{
-	width: 210px;
-}
-.video3{
-	height:386px;
+.video2{
+	height:71vh;
 	width: 100%;
 	background: linear-gradient(90deg, #111, #302640);
-
+}
+.video2 video{
+	margin-top: 0.938rem;
+	z-index: +1;
+	margin-left: 50vw;
+	transform: translate(-50%);
+	transition: 1s;
+	box-shadow: 0.625rem 0.625rem 6.25rem 1.875rem;
+}
+.video2 video:hover{
+	width: 13.125rem;
+}
+.video3{
+	height:71vh;
+	width: 100%;
+	background: linear-gradient(90deg, #111, #302640);
 }
 .video3 video{
-margin-top: 15px;
-z-index: +1;
-margin-left: 50vw;
-transform: translate(-50%);
-transition: 1s;
-box-shadow: 10px 10px 100px 30px;
+	margin-top: 0.938rem;
+	z-index: +1;
+	margin-left: 50vw;
+	transform: translate(-50%);
+	transition: 1s;
+	box-shadow: 0.625rem 0.625rem 6.25rem 1.875rem;
 }
 .video3 video:hover{
-	width: 210px;
+	width: 13.125rem;
 }
 .video4{
-	height:386px;
+	height:71vh;
 	width: 100%;
 	background: linear-gradient(90deg, #111, #302640);
 
 }
 .video4 video{
-margin-top: 15px;
-z-index: +1;
-margin-left: 50vw;
-transform: translate(-50%);
-transition: 1s;
-box-shadow: 10px 10px 100px 30px;
+	margin-top: 0.938rem;
+	z-index: +1;
+	margin-left: 50vw;
+	transform: translate(-50%);
+	transition: 1s;
+	box-shadow: 0.625rem 0.625rem 6.25rem 1.875rem;
 }
 .video4 video:hover{
-	width: 320px;
+	width: 20rem;
 }
