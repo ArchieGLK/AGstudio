@@ -1,0 +1,219 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+
+}
+
+html{
+	scroll-behavior: smoot;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #612B2C;
+	color: #fff;
+	box-shadow: 10px 10px 20px 10px black;
+	max-height: 80px;
+	text-shadow: 0px 0px 4px white;
+
+}
+.navbar img{
+	height: 110px;
+}
+.brand-title{
+	font-size: 20px;
+ margin: 10px;
+ font-family: 'Dela Gothic One', cursive;
+ text-shadow: 0px 0px 10px white;
+ background: #555;
+ display: flex;
+}
+.navbar-links ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.navbar-links li{
+	list-style: none;
+}
+.navbar-links li a{
+	text-decoration: none;
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+	color: #fff;
+	padding: 20px;
+	display: block;
+	transition: 1s;
+}
+.navbar-links li a:hover{
+	background: #444;
+}
+.navbar-links a:active{
+	z-index: 999;
+}
+.video-background video{
+  z-index: -1;
+  position: absolute;
+  align-items: center;
+	display: block;
+}
+.space-between{
+ height: 200px;
+}
+.title{
+ font-family: 'Dela Gothic One', cursive;
+ color: white;
+ text-shadow: 0px 0px 10px white;
+ margin-left: 100px;
+ font-size: 60px;
+}
+.title p{
+
+ font-size: 20px;
+ max-width: 250px;
+ text-shadow: none;
+ text-align: left;
+ font-family: 'Poiret One', cursive;
+ margin-bottom: 350px;
+}
+.grey-background{
+	background-color: #333;
+	width: 100%;
+	height: 700px;
+	box-shadow: inset 0px 20px 70px ;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.text{
+	height: 200px;
+	width: 220px;
+	margin: 0 auto;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	text-shadow: 0px 0px 4px white;
+	font-size: 35px;
+	text-align: right;
+}
+.text p{
+	font-family: 'Poiret One', cursive;
+	text-shadow: none;
+	font-size: 20px;
+}
+.photo{
+	height: 200px;
+	width: 250px;
+	margin: 0 auto;
+}
+.photo img{
+	height: 200px;
+	border-radius: 100rem;
+	box-shadow: 10px 10px 30px;
+}
+.grid-container-second{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.photo-second{
+	height: 200px;
+	width: 250px;
+	margin: 0 auto;
+	padding-left: 30px;
+}
+.photo-second img{
+	height: 200px;
+	border-radius: 1000px;
+	box-shadow: 10px 10px 30px;
+}
+.text-second{
+	height: 200px;
+	width: 220px;
+	margin: 0 auto;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	text-shadow: 0px 0px 4px white;
+	font-size: 35px;
+	text-align: left;
+}
+.text-second p{
+	font-family: 'Poiret One', cursive;
+	text-shadow: none;
+	font-size: 20px;
+}
+.video1{
+	height:386px;
+	width: 100%;
+	background: linear-gradient(90deg, #111, #302640);
+
+}
+.video1 video{
+margin-top: 15px;
+z-index: +1;
+margin-left: 50vw;
+transform: translate(-50%);
+transition: 1s;
+box-shadow: 10px 10px 100px 30px;
+}
+.video2{
+	height:386px;
+	width: 100%;
+	background: linear-gradient(90deg, #111, #302640);
+}
+.video1 video:hover{
+	width: 210px;
+}
+.video2 video{
+margin-top: 15px;
+z-index: +1;
+margin-left: 50vw;
+transform: translate(-50%);
+transition: 1s;
+box-shadow: 10px 10px 100px 30px;
+}
+.video2 video:hover{
+	width: 210px;
+}
+.video3{
+	height:386px;
+	width: 100%;
+	background: linear-gradient(90deg, #111, #302640);
+
+}
+.video3 video{
+margin-top: 15px;
+z-index: +1;
+margin-left: 50vw;
+transform: translate(-50%);
+transition: 1s;
+box-shadow: 10px 10px 100px 30px;
+}
+.video3 video:hover{
+	width: 210px;
+}
+.video4{
+	height:386px;
+	width: 100%;
+	background: linear-gradient(90deg, #111, #302640);
+
+}
+.video4 video{
+margin-top: 15px;
+z-index: +1;
+margin-left: 50vw;
+transform: translate(-50%);
+transition: 1s;
+box-shadow: 10px 10px 100px 30px;
+}
+.video4 video:hover{
+	width: 320px;
+}
