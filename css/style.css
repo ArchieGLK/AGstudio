@@ -3,6 +3,7 @@ body{
 	padding: 0;
 	overflow-x: hidden;
 	width: 100%;
+	background-color: #555
 }
 html{
 	scroll-behavior: smooth;
@@ -99,7 +100,7 @@ body {
 
 	max-width: 80vw;
 	margin: 0 auto;
-	padding-top: 1.875rem;
+	padding-top: 10vh;
 
 }
 .text{
@@ -162,69 +163,33 @@ body {
 	text-shadow: none;
 	font-size: 1rem;
 }
-.video1{
-	height:71vh;
-	width: 100%;
-	background: linear-gradient(90deg, #111, #302640);
 
-}
-.video1 video{
-margin-top: 0.938rem;
-z-index: +1;
-margin-left: 50vw;
-transform: translate(-50%);
-transition: 1s;
-box-shadow: 0.625rem 0.625rem 6.25rem 1.875rem;
-}
-.video1 video:hover{
-	width: 13.125rem;
-}
-.video2{
-	height:71vh;
-	width: 100%;
-	background: linear-gradient(90deg, #111, #302640);
-}
-.video2 video{
-	margin-top: 0.938rem;
-	z-index: +1;
-	margin-left: 50vw;
-	transform: translate(-50%);
-	transition: 1s;
-	box-shadow: 0.625rem 0.625rem 6.25rem 1.875rem;
-}
-.video2 video:hover{
-	width: 13.125rem;
-}
-.video3{
-	height:71vh;
-	width: 100%;
-	background: linear-gradient(90deg, #111, #302640);
-}
-.video3 video{
-	margin-top: 0.938rem;
-	z-index: +1;
-	margin-left: 50vw;
-	transform: translate(-50%);
-	transition: 1s;
-	box-shadow: 0.625rem 0.625rem 6.25rem 1.875rem;
-}
-.video3 video:hover{
-	width: 13.125rem;
-}
-.video4{
-	height:71vh;
-	width: 100%;
-	background: linear-gradient(90deg, #111, #302640);
+.grid-wrapper{
+			--auto-grid-min-size: 16rem;
+			display: grid;
+			grid-gap: 2rem;
+			grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
 
-}
-.video4 video{
-	margin-top: 0.938rem;
-	z-index: +1;
-	margin-left: 50vw;
-	transform: translate(-50%);
-	transition: 1s;
-	box-shadow: 0.625rem 0.625rem 6.25rem 1.875rem;
-}
-.video4 video:hover{
-	width: 20rem;
-}
+		}
+		.grid-wrapper li{
+			background-color: #222;
+			color: #ffffff;
+			font-size: 24px;
+			list-style-type: none;
+			text-align: center;
+			text-transform: capitalize;
+      font-weight: 600;
+		}
+		.grid-wrapper li img{
+			height: 15rem;
+			object-fit: cover;
+		}
+		.main-container{
+			margin: 0 auto;
+			max-width: 1170px;
+			padding:2rem 1rem;
+		}
