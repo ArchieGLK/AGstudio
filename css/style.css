@@ -96,8 +96,8 @@ body {
 .grid-container{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 1.25rem;
-	max-width: 43.75rem;
+
+	max-width: 80vw;
 	margin: 0 auto;
 	padding-top: 1.875rem;
 
@@ -129,8 +129,8 @@ body {
 .grid-container-second{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 1.25rem;
-	max-width: 43.75rem;
+
+	max-width: 80vw;
 	margin: 0 auto;
 	padding-top: 1.875rem;
 
