@@ -2,17 +2,29 @@ body{
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-	width: 100%;
-	background-color: #2e010e;
+	height: 100vh;
+	
+
 }
 html{
-	scroll-behavior: smooth;
+;
 }
 html, body {
   overflow-x: hidden;
 }
 body {
   position: relative;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 .navbar{
 	display: flex;
