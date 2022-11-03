@@ -123,7 +123,7 @@ body {
 	margin: 0 auto;
 }
 .photo img{
-	height: 36.9vh;
+	height: 31vh;
 	border-radius: 100%;
 	box-shadow: 0.625rem 0.625rem 1.875rem;
 }
@@ -141,7 +141,7 @@ body {
 
 }
 .photo-second img{
-	height: 36.9vh;
+	height: 31vh;
 	border-radius: 100%;
 	box-shadow: 0.625rem 0.625rem 1.875rem;
 }
@@ -187,6 +187,7 @@ body {
 			font-size: 1.5rem;
 			font-family: 'Russo One', sans-serif;
 			text-shadow: 0rem 0rem 0.15rem white;
+			height: 15rem;
 		}
 		.grid-wrapper li img{
 			height: 15rem;
@@ -197,12 +198,12 @@ body {
 		}
 		.grid-wrapper li p{
 			font-family: 'Poiret One', cursive;
-			font-size: 1rem;
+			font-size: 0.9rem;
 			text-shadow: none;
 		}
 
 		.main-container{
-		margin: 0 auto;
+			margin: 0 auto;
 			max-width: 1170px;
 			padding:2rem 1rem;
 		}
