@@ -1,273 +1,96 @@
-body{
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-	height: 100vh;
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
 
-}
-html{
-;
-}
-html, body {
-  overflow-x: hidden;
-}
-body {
-  position: relative;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
-.navbar{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: #612B2C;
-	color: #fff;
-	box-shadow: 0.625rem 0.625rem 1.25rem 1.25rem black;
-  height: 12vh;
-	width: 100vw;
-	text-shadow: 0rem 0rem 0.25rem white;
-}
-.navbar img{
-	height: 15vh;
-}
-.brand-title{
- font-size: 1.25rem;
- margin: 62.5%;
- font-family: 'Dela Gothic One', cursive;
- text-shadow: 0rem 0rem 0.625rem white;
- background: #555;
- display: flex;
-}
-.navbar-links ul{
-	margin: 0;
-	padding: 0;
-	display: flex;
-}
-.navbar-links li{
-	list-style: none;
-}
-.navbar-links li a{
-	text-decoration: none;
-	font-family: 'Poiret One', cursive;
-	font-size: 1.25rem;
-	color: #fff;
-	padding: 1%;
-	display: block;
-	transition: 1s;
-}
-.navbar-links li a:hover{
-	background: #444;
-}
-.navbar-links a:active{
-	z-index: +1;
-}
-.video-background video{
-  z-index: -1;
-  position: absolute;
-  align-items: center;
-	display: block;
 
-}
-.space-between{
- height: ;
-}
-.title{
- font-family: 'Dela Gothic One', cursive;
- color: white;
- text-shadow: 0rem 0rem 0.625rem white;
- margin-left: 5rem;
- font-size: 7vw;
- padding-top: 15vh;
- min-height: 6vw;
-}
-.title p{
+	</head>
+	<body>
+<img id="background-video"src="https://st.depositphotos.com/2031845/3065/i/450/depositphotos_30652397-stock-photo-guitarist-plays.jpg" alt="">
+		<nav class="navbar">
+			<img src="img/agstudio.png" alt="">
+			<div class="brand-title">
 
- font-size: 1.25rem;
- max-width: 36vw;
- width: 36vw;
- text-shadow: none;
- text-align: left;
- font-family: 'Poiret One', cursive;
- margin-bottom: 21rem;
-}
-.grey-background{
-	background-color: #333;
-	width: 100%;
-	height: 100vh;
-	box-shadow: inset 0rem 1.25rem 4.375rem ;
-}
-.grid-container{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+			</div>
+			<div class="navbar-links">
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</div>
+		</nav>
 
-	max-width: 80vw;
-	margin: 0 auto;
-	padding-top: 10vh;
 
-}
-.text{
-	height: 37vh;
-	margin: 0 auto;
-	font-family: 'Russo One', sans-serif;
-	color: white;
-	text-shadow: 0rem 0rem 0.25rem white;
-	font-size: 5vw;
-	text-align: right;
-}
-.text p{
-	font-family: 'Poiret One', cursive;
-	text-shadow: none;
-	font-size: 1rem;
+<div class="video-background">
+ <video src="videos/guitar.mp4" autoplay loop muted height="820vh;" >
+ </video>
+<div class="space-between">
 
-}
-.photo{
-	height: 36.9vh;
-	margin: 0 auto;
-}
-.photo img{
-	height: 31vh;
-	border-radius: 100%;
-	box-shadow: 0.625rem 0.625rem 1.875rem;
-}
-.grid-container-second{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+</div>
+<div class="title">
+	AG.studio
+	<p>Еж — колючее млекопитающее из подсемейства Erinaceinae из семейства эулипотифлановых Erinaceidae. </p>
+</div>
 
-	max-width: 80vw;
-	margin: 0 auto;
-	padding-top: 1.875rem;
+<div class="grey-background">
+	<div class="grid-container">
+		<div class="text">
+			Обо мне <p>Еж — колючее млекопитающее из подсемейства Erinaceinae из семейства эулипотифлановых Erinaceidae.</p>
+		</div>
+		<div class="photo">
+			<img src="img/sanek.jpg" alt="">
+		</div>
+	</div>
 
-}
-.photo-second{
-	margin: 0 auto;
+	<div class="grid-container-second">
+		<div class="photo-second">
+			<img src="img/sanek2.jpg" alt="">
+		</div>
+		<div class="text-second">
+			Обо мне <p>	Еж — колючее млекопитающее из подсемейства Erinaceinae из семейства эулипотифлановых Erinaceidae.</p>
+		</div>
+	</div>
+</div>
 
-}
-.photo-second img{
-	height: 31vh;
-	border-radius: 100%;
-	box-shadow: 0.625rem 0.625rem 1.875rem;
-}
-.text-second{
-	height: 37vh;
-	margin: 0 auto;
-	font-family: 'Russo One', sans-serif;
-	color: white;
-	text-shadow: 0rem 0rem 0.25rem white;
-	font-size: 5vw;
-	max-height: 5vw;
-	text-align: left;
+<section>
+		<div class="main-container">
+			<ul class="grid-wrapper">
+				<li><img src="https://i.imgflip.com/6zcmbz.gif" alt="">Обо мне <p>	Еж — колючее млекопитающее из подсемейства Erinaceinae из семейства эулипотифлановых Erinaceidae.</p></li>
+				<li><img src="https://i.imgflip.com/6zcmm1.gif" alt="">Обо мне <p>	Еж — колючее млекопитающее из подсемейства Erinaceinae из семейства эулипотифлановых Erinaceidae.</p></li>
+				<li><img src="https://i.imgflip.com/6zcmpt.gif" alt="">Обо мне <p>	Еж — колючее млекопитающее из подсемейства Erinaceinae из семейства эулипотифлановых Erinaceidae.</p></li>
+				<li><img src="https://i.imgflip.com/6zcmtv.gif" alt="">Обо мне <p>	Еж — колючее млекопитающее из подсемейства Erinaceinae из семейства эулипотифлановых Erinaceidae.</p></li>
+			</ul>
+		</div>
+	</section>
+   <div class="guitar-video-container">
+   	<div class="guitar-video">
+   		<img src="https://i.imgflip.com/6zctmx.gif" alt="">Обо мне <p>	Еж — колючее млекопитающее из подсемейства Erinaceinae из семейства эулипотифлановых Erinaceidae.</p>
+   	</div>
+   </div>
 
 
 
-}
-.text-second p{
-	font-family: 'Poiret One', cursive;
-	text-shadow: none;
-	font-size: 1rem;
-}
-#background-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
+	<div class="footer-div">
+	 <a href="https://t.me/agstudioofficial"><img src="img/telegram.png" height="30rem" alt=""></a>
+	 <a href="https://www.instagram.com/agstudioofficial/"><img src="img/instagram.png" height="50vh" alt=""></a>
+	 <a href="https://vk.com/agstudioofficial"><img src="img/vk.png" height="40rem" alt=""></a>
+	</div>
 
-.grid-wrapper{
-			--auto-grid-min-size: 16rem;
-			display: grid;
-			grid-gap: 2rem;
-			grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-		}
-		.grid-wrapper li{
-			background-color: #222;
-			color: #ffffff;
-			font-size: 24px;
-			list-style-type: none;
-			text-align: center;
-			text-transform: capitalize;
-      font-weight: 600;
-			box-shadow:  8px 8px 30px 8px black;
-			border-bottom-right-radius: 2rem;
-			border-top-left-radius: 2rem;
-			font-size: 1.5rem;
-			font-family: 'Russo One', sans-serif;
-			text-shadow: 0rem 0rem 0.15rem white;
-			height: 15rem;
-		}
-		.grid-wrapper li img{
-			height: 15rem;
-			object-fit: cover;
-			float: left;
-			box-shadow: 5px 0px 15px black;
-			border-top-left-radius: 2rem;
-		}
-		.grid-wrapper li p{
-			font-family: 'Poiret One', cursive;
-			font-size: 0.9rem;
-			text-shadow: none;
-		}
 
-		.main-container{
-			margin: 0 auto;
-			max-width: 1170px;
-			padding:2rem 1rem;
-		}
-		.guitar-video-container{
+</body>
 
-		}
-		.guitar-video{
-			margin: 0 auto;
-			background-color: #222;
-			color: #ffffff;
-			font-size: 24px;
-			list-style-type: none;
-			text-align: center;
-			text-transform: capitalize;
-			font-weight: 600;
-			box-shadow:  8px 8px 30px 8px black;
-			border-bottom-right-radius: 2rem;
-			border-top-left-radius: 2rem;
-			font-size: 1.5rem;
-			font-family: 'Russo One', sans-serif;
-			text-shadow: 0rem 0rem 0.15rem white;
-			height: 20rem;
-			max-width: 22.55rem;
-		}
-		.guitar-video img{
-			border-top-left-radius: 2rem;
-		}
-    .guitar-video p{
-			font-family: 'Poiret One', cursive;
-			font-size: 0.9rem;
-			text-shadow: none;
-		}
-.footer-div{
-	display: flex;
-	background: ;
-	width: 100%;
-	height: 6rem;
-	margin-top: 4rem;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-}
-.footer-div img{
-  display: flex;
-	padding: 1rem;
-	transition: 0.5s;
-}
-.footer-div img:hover{
- opacity: 40%;
- cursor: pointer;
-}
-.footer-div img:active{
- opacity: 40%;
- cursor: pointer;
-}
+</html>
