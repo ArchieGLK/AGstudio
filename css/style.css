@@ -4,7 +4,6 @@ body{
 	overflow-x: hidden;
 	height: 100vh;
 
-
 }
 html{
 ;
@@ -244,8 +243,31 @@ body {
 		.guitar-video img{
 			border-top-left-radius: 2rem;
 		}
-		.guitar-video p{
+    .guitar-video p{
 			font-family: 'Poiret One', cursive;
 			font-size: 0.9rem;
 			text-shadow: none;
 		}
+.footer-div{
+	display: flex;
+	background: ;
+	width: 100%;
+	height: 6rem;
+	margin-top: 4rem;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.footer-div img{
+  display: flex;
+	padding: 1rem;
+	transition: 0.5s;
+}
+.footer-div img:hover{
+ opacity: 40%;
+ cursor: pointer;
+}
+.footer-div img:active{
+ opacity: 40%;
+ cursor: pointer;
+}
