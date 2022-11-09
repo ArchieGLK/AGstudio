@@ -81,13 +81,20 @@ body {
 }
 .title p{
 
- font-size: 1.25rem;
- max-width: 36vw;
- width: 36vw;
+ font-size: 2.5rem;
+ max-width: 30rem;;
  text-shadow: none;
  text-align: left;
  font-family: 'Poiret One', cursive;
  margin-bottom: 21rem;
+}
+.title p a{
+text-shadow: 0rem 0rem 0.4rem white;
+ font-weight: 100;
+ font-size: 2.5rem;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 555;
+
 }
 .grey-background{
 	background-color: #333;
@@ -272,4 +279,3 @@ body {
  opacity: 40%;
  cursor: pointer;
 }
- 
