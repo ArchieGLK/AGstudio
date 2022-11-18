@@ -13,6 +13,7 @@ html, body {
 }
 body {
   position: relative;
+	border: 5px solid #612B2C;
 }
 
 .navbar{
@@ -111,9 +112,11 @@ text-shadow: 0rem 0rem 0.4rem white;
 }
 .grey-background{
 	background-color: #333;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	box-shadow: inset 0rem 1.25rem 4.375rem;
+	border-top: 5px solid #612B2C;
+	border-bottom: 5px solid #612B2C;
 }
 .grid-container{
 	display: grid;
@@ -178,6 +181,43 @@ text-shadow: 0rem 0rem 0.4rem white;
 	font-family: 'Poiret One', cursive;
 	text-shadow: none;
 	font-size: 1rem;
+}
+.question-background{
+	width: 100%;
+	height: 20rem;
+	background-color: #222;
+	margin-top: 2rem;
+	box-shadow: 0rem 2rem 10rem 2rem black;
+	color: #fff;
+	border-top: 5px solid #612B2C;
+	border-bottom: 5px solid #612B2C;
+}
+.question-inner{
+	text-align: center;
+	padding-top: 3rem;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.7rem;
+	text-shadow: 0rem 0rem 0.3rem white;
+	padding: 3rem;
+}
+
+.question-inner p{
+font-family: 'Poiret One', cursive;
+font-size: 1.1rem;
+text-shadow: none;
+}
+.results{
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	padding: 2rem;
+	text-align: center;
+	font-size: 1.9rem;
+	background-color: #612B2C;
+}
+.results-vid iframe{
+border: none;
+height: 20rem;
+
 }
 #background-video {
   width: 100vw;
