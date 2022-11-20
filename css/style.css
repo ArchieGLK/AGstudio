@@ -187,6 +187,7 @@ text-shadow: 0rem 0rem 0.4rem white;
 	color: #fff;
 	border-top: 5px solid #612B2C;
 	border-bottom: 5px solid #612B2C;
+  box-shadow: inset 0rem 2rem 5rem 2rem black;
 }
 
 .question-inner{
@@ -230,6 +231,17 @@ box-shadow: 0.625rem 0.625rem 1.875rem;
   bottom: 0;
   z-index: -1;
 }
+.redstripe{
+	font-family: 'Russo One', sans-serif;
+	color: white;
+	padding: 2rem;
+	text-align: center;
+	font-size: 1.9rem;
+	background-color: #612B2C;
+	text-shadow: 0rem 0rem 0.1rem white;
+  height: 3rem;
+
+}
 
 .grid-container3 {
   display: grid;
@@ -237,21 +249,39 @@ box-shadow: 0.625rem 0.625rem 1.875rem;
   align-items: center;
   max-width: 30rem;
   margin: 0 auto;
+  padding-top: 3rem;
 }
 .grid-item {
   font-size: 30px;
   text-align: center;
 }
-.videodescription{
-  font-family: 'Russo One', sans-serif;
-	color: white;
-	padding: 2rem;
-	text-align: center;
-	font-size: 1.9rem;
-	background-color: #612B2C;
-	text-shadow: 0rem 0rem 0.1rem white;
-
-
+.gridvideobackground{
+  height: 30rem;
+  background-color: #222;
+  width: 100%;
+  border-top: 5px solid #612B2C;
+  border-bottom: 5px solid #612B2C;
+  display: block;
+  box-shadow: inset 0rem 2rem 10rem 2rem black;
+}
+.gridtext{
+  display: block;
+  color: white;
+  text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.7rem;
+	text-shadow: 0rem 0rem 0.3rem white;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.gridtext p{
+  font-family: 'Poiret One', cursive;
+  font-size: 1.1rem;
+  text-shadow: none;
+  text-align: center;
 }
 
 .footer-div{
