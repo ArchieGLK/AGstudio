@@ -87,6 +87,17 @@ to{
 	width: 100%;
 }
 }
+.title{
+ font-family: 'Dela Gothic One', cursive;
+ color: white;
+ text-shadow: 0rem 0rem 0.625rem white;
+ margin-left: 4vw;
+ font-size: 3.7rem;
+ padding-top: 15vh;
+ min-height: 6rem;
+ animation-name: slidein;
+ animation-duration: 2s;
+}
 .title p{
 
  font-size: 2rem;
@@ -105,6 +116,21 @@ text-shadow: 0rem 0rem 0.4rem white;
  font-family: 'Raleway', sans-serif;
  font-weight: 555;
 }
+
+.free{
+  text-align: center;
+  background-color: #612B2C;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Poiret One', cursive;
+  height: 3rem;
+  text-shadow: 0rem 0rem 0.3rem white;
+  margin-top: 3rem;
+  box-shadow: 0rem 2rem 10rem 2rem black;
+}
+
+
+
 .grey-background{
 	background-color: #333;
 	width: 100vw;
@@ -234,12 +260,17 @@ box-shadow: 0.625rem 0.625rem 1.875rem;
 .redstripe{
 	font-family: 'Russo One', sans-serif;
 	color: white;
-	padding: 2rem;
+
 	text-align: center;
 	font-size: 1.9rem;
 	background-color: #612B2C;
 	text-shadow: 0rem 0rem 0.1rem white;
-  height: 3rem;
+  height: 6rem;
+
+}
+.redstripe img{
+  margin: auto;
+  display: block;
 
 }
 
@@ -282,7 +313,9 @@ box-shadow: 0.625rem 0.625rem 1.875rem;
   font-size: 1.1rem;
   text-shadow: none;
   text-align: center;
+  padding-bottom: 2rem;
 }
+
 
 .footer-div{
 	display: flex;
