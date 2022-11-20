@@ -230,14 +230,28 @@ box-shadow: 0.625rem 0.625rem 1.875rem;
   bottom: 0;
   z-index: -1;
 }
-.sanyaplay{
 
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  max-width: 30rem;
+  margin: 0 auto;
 }
-.sanyaplay img{
-  margin: auto;
-  display: block;
-	border: 5px solid #612B2C;
-  margin-top: 5px;
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+}
+.videodescription{
+  font-family: 'Russo One', sans-serif;
+	color: white;
+	padding: 2rem;
+	text-align: center;
+	font-size: 1.9rem;
+	background-color: #612B2C;
+	text-shadow: 0rem 0rem 0.1rem white;
+
+
 }
 
 .footer-div{
