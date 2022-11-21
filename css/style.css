@@ -56,8 +56,8 @@ body{
 .navbar-links a:active{
 	z-index: +1;
 }
-.video-background video{
-  zndex: -1;
+.ideo-background video{
+  zindex: -1;
   position: absolute;
   align-items: center;
 	display: block;
@@ -157,7 +157,7 @@ text-shadow: 0rem 0rem 0.4rem white;
 .text p{
 	font-family: 'Poiret One', cursive;
 	text-shadow: none;
-	font-size: 1rem;
+	font-size: 0.9rem;
 }
 .photo{
 	height: 36.9vh;
@@ -200,7 +200,7 @@ text-shadow: 0rem 0rem 0.4rem white;
 .text-second p{
 	font-family: 'Poiret One', cursive;
 	text-shadow: none;
-	font-size: 1rem;
+	font-size: 0.9rem;
 }
 .question-background{
 	width: 100%;
@@ -312,6 +312,17 @@ box-shadow: 0.625rem 0.625rem 1.875rem;
   text-shadow: none;
   text-align: center;
   padding-bottom: 2rem;
+}
+.gridtext a{
+  text-decoration: none;
+  color: white;
+  text-shadow: 0rem 0rem 0.3rem white;
+  transition: 0.2s;
+  text-decoration: underline;
+}
+.gridtext a:hover{
+font-size: 1.5rem;
+
 }
 
 
