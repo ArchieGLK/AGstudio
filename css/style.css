@@ -57,7 +57,7 @@ body{
 	z-index: +1;
 }
 .video-background video{
-  z-index: -1;
+  zndex: -1;
   position: absolute;
   align-items: center;
 	display: block;
