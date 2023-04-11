@@ -349,3 +349,20 @@ font-size: 1.5rem;
  opacity: 40%;
  cursor: pointer;
 }
+.logogalkintext{
+  color: white;
+  padding-bottom: 10px;
+  font-family: 'Poiret One', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+.logogalkin img{
+  margin: auto;
+  display: block;
+  transition: 0.2s;
+}
+.logogalkin img:hover{
+  opacity: 40%;
+  cursor: pointer;
+}
